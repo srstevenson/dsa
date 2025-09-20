@@ -1,0 +1,9 @@
+[tool.basedpyright]
+reportUnusedCallResult = false
+
+[tool.ruff.format]
+skip-magic-trailing-comma = true
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["D", "INP", "PLR2004", "RET503"]
