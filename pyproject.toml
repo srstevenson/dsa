@@ -1,3 +1,9 @@
+[project]
+name = "dsa"
+version = "0.0.0"
+description = "Data Structures and Algorithms"
+requires-python = ">=3.13,<3.14"
+
 [tool.basedpyright]
 reportUnusedCallResult = false
 
@@ -10,3 +16,6 @@ ignore = ["COM812", "D", "ERA001", "INP", "PLR2004", "PT009", "RET503", "S101"]
 
 [tool.ruff.lint.isort]
 split-on-trailing-comma = false
+
+[tool.uv]
+package = false
